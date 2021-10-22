@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <h3>Contact Me</h3>
+    <ul>
+      <li><a href="mailto:sunnypatelc9@gmail.com">Email</a></li>
+      <li><a href="tel:7735672840">Phone</a></li>
+      <li><a href="https://github.com/SPatel29">GitHub</a></li>
+    </ul>
+    <hr />
+
+    <p>Integrated Email:</p>
+
+    <form action="mailto:sunnypatelc9@gmail.com" method="post" enctype="text/plain"> 
+      <!--Post transfers the user inputs into the email clients-->
+      <!--the enctype = text/plain makes it so we only get text from the inputs, not weird symbols like from a ciphertext.  -->
+      <label for="name">Your Name:</label>                    
+      <input type="text" name="name" id="" />
+      <br />
+
+      <label for="email">Your Email:</label>
+      <input type="email" name="email" id="" />
+      <br />
+
+      <label for="message">Your Message:</label>
+      <br />
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+      <!--Creates the text box-->
+      <br />
+
+      <input type="submit" value="Submit!" />
+    </form>
+  </body>
+</html>
